@@ -20,7 +20,7 @@ This project is implemented using Python 3.7.6. You are free to use any version 
 ```
 
 ## Usage
-For easier usage, the projects includes a script to create simulation files and another script to run them as many times as you desire. For the most part, scripts, packages and modules are extensively documented. If you have any doubts you may contact me.
+For easier usage, the projects includes a script to create simulation files and another script to run them as many times as you desire. For the most part, scripts, packages and modules are extensively documented. If you have any doubts, *regarding functionality*, you may contact me, I am not available to help with installation problems as that can be dependant on many factors.
 
 1. Place a file or files you wish to test durability inside the folder /app/static/shared. We provide a 8.78MB game and a 45.0MB raw photo.
 
