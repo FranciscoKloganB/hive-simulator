@@ -22,7 +22,7 @@ This project is implemented using Python 3.7.6. You are free to use any version 
 ## Usage
 For easier usage, the projects includes a script to create simulation files and another script to run them as many times as you desire. For the most part, scripts, packages and modules are extensively documented. If you have any doubts, regarding functionality or because you do not understand why I do a function or method in some way, you may contact me, but I am not available to help with installation problems as that can be dependant on many factors. You can also contact me to make improvement suggestions or inform me of something I might be doing wrong.
 
-1. Place a file or files you wish to test durability inside the folder /app/static/shared. We provide a 8.78MB game and a 45.0MB raw photo.
+1. Place a file or files you wish to test durability inside the folder /app/static/shared. We provide a 45.0MB raw photo.
 
 2. Create a simulation file by executing the following commands in order:
 ```
