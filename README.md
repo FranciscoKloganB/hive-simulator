@@ -14,7 +14,9 @@ https://www.python.org/downloads/release/python-377/
 3. Create a virtual environment of your choosing.
 
 4. Install project dependencies by opening your terminal and inserting the command:
+```
   pip install -r requirements txt
+```
 
 ## Usage
 For easier usage, the projects includes a script to create simulation files and another script to run them as many times as you desire.
