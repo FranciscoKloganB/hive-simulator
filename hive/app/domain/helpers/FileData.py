@@ -36,7 +36,7 @@ class FileData:
         self.current_distribution: Union[None, pd.DataFrame] = None
         self.simulation_data: SimulationData = SimulationData()
         self.out_file: Any = open(os.path.join(
-            OUTFILE_ROOT, "{}_{}{}".format(Path(name).resolve().stem, Path(origin).resolve().stem, sim_number, ".json")
+            OUTFILE_ROOT, "{}_{}{}.{}".format(Path(name).resolve().stem, Path(origin).resolve().stem, sim_number, "json")
         ), "w+")
     # endregion
 
