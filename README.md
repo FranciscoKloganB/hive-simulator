@@ -12,6 +12,7 @@ https://www.python.org/downloads/release/python-377/
 2. Download our repository
 
 3. Create a virtual environment of your choosing.
+https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 
 4. Install project dependencies by opening your terminal and inserting the command:
 ```
