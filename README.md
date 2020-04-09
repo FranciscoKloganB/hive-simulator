@@ -7,11 +7,13 @@ The present repository contains a custom cycle-based P2P simulator with perfect 
 This project is implemented using Python 3.7.6. You are free to use any version you desire, but we do not guarantee the simulator will work under such conditions. We know that any version launched before 3.7.x will not run this project. We also recommend using an IDE such as PyCharm or equivalent for easier usage.
 
 1. Download and install Python 3.7.7
+
 https://www.python.org/downloads/release/python-377/
 
 2. Download our repository
 
 3. Create a virtual environment of your choosing.
+
 https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 
 4. Install project dependencies by opening your terminal and inserting the command:
