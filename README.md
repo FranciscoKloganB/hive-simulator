@@ -47,7 +47,7 @@ For easier usage, the projects includes a script to create simulation files and 
 
 6. Execute the simulation file by executing:
 ```
-  python hive_simulation.py --simfile=<str: file name>.json --epochs=<int: number of executions>
+  python hive_simulation.py --simfile=<str: file name>.json --runs=<int: number of executions>
 ```
 
 7. The simulation may take a while to run, especially if you have large P2P groups. The simulator was not designed for performance and is only result oriented. When simulation instances or groups within it terminate, output files are generated in folder hive/app/static/outfiles
