@@ -32,14 +32,22 @@ For easier usage, the projects includes a script to create simulation files and 
 
 3. Follow the instructions asked in the script. The script is documented so you can change it if you think something should be done differently. When you are done a new file will be generated in the /app/static/outfiles folder.
 
-4. Execute the simulation file by executing:
+4. Change the global variables in app/globals/globals.py to what you desire. The meaning of these variables are commented and are used to change simulation settings and, among others, include:
+	1. MAX_EPOCHS
+	2. READ_SIZE
+	3. MIN_DETECTION_DELAY
+	4. MAX_DETECTION_DELAY
+	5. REPLICATION_LEVEL
+	6. ...
+
+5. Execute the simulation file by executing:
 ```
   python simulation_file_generator.py --simfile=<str: file name>.json --epochs=<int: number of executions>
 ```
 
-5. The simulation may take a while to run, especially if you have large P2P groups. The simulator was not designed for performance and is only result oriented. When simulation instances or groups within it terminate, output files are generated in folder /app/static/outfiles
+6. The simulation may take a while to run, especially if you have large P2P groups. The simulator was not designed for performance and is only result oriented. When simulation instances or groups within it terminate, output files are generated in folder /app/static/outfiles
 
-6. Generate graphs of your choice by app/scripts/pyscripts and running the script you want:
+7. Generate graphs of your choice by app/scripts/pyscripts and running the script you want:
 ```
   python <str:script name>.py --meandir=<str: folder name, where you placed your outfiles> --istate=<char: initial state {i, u, a}>
 ```
