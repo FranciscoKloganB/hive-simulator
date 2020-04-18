@@ -54,10 +54,8 @@ if __name__ == "__main__":
                 myhelp()
             if options in ("-s", "--simfile"):
                 simfile_name_ = str(args).strip()
-                print(simfile_name_)
             if options in ("-r", "--runs"):
                 run_ = int(str(args).strip())
-                print(run_)
         if simfile_name_ and run_:
             main(simfile_name_, run_)
     except getopt.GetoptError:
